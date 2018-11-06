@@ -45,7 +45,7 @@ class ViewController: UIViewController {
         animation.duration = 3.0
         animation.toValue = percentage
         animation.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeIn)
-        animation.fillMode = CAMediaTimingFillMode.both
+        animation.fillMode = CAMediaTimingFillMode.forwards
         animation.isRemovedOnCompletion = false
 
         pathLayer.add(animation, forKey: "kDownloadAnimation")
