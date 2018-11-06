@@ -1,0 +1,6 @@
+framework module Pods_DownloadingAnimationRx {
+  umbrella header "Pods-DownloadingAnimationRx-umbrella.h"
+
+  export *
+  module * { export * }
+}
